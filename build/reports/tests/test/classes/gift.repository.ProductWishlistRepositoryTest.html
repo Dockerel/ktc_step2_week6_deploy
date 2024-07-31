@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ProductWishlistRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ProductWishlistRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/gift.repository.html">gift.repository</a> &gt; ProductWishlistRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.015s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deleteByProductIdAndWishlistId_테스트()</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2024-07-31T11:00:39.469+09:00  INFO 9359 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.repository.ProductWishlistRepositoryTest]: ProductWishlistRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-31T11:00:39.481+09:00  INFO 9359 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.repository.ProductWishlistRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-31T11:00:39.501+09:00  INFO 9359 --- [spring-gift] [    Test worker] g.r.ProductWishlistRepositoryTest        : Starting ProductWishlistRepositoryTest using Java 21.0.3 with PID 9359 (started by dogiheon in /Users/dogiheon/Desktop/ktc/step2/spring-gift-point)
+2024-07-31T11:00:39.501+09:00  INFO 9359 --- [spring-gift] [    Test worker] g.r.ProductWishlistRepositoryTest        : The following 1 profile is active: &quot;dev&quot;
+2024-07-31T11:00:39.565+09:00  INFO 9359 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T11:00:39.581+09:00  INFO 9359 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 8 JPA repository interfaces.
+2024-07-31T11:00:39.593+09:00  INFO 9359 --- [spring-gift] [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-07-31T11:00:39.610+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:634ef507-d6f8-4cd8-870a-898425952c41;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-07-31T11:00:39.651+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T11:00:39.653+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T11:00:39.662+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T11:00:39.840+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T11:00:39.840+09:00  INFO 9359 --- [spring-gift] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T11:00:39.931+09:00  INFO 9359 --- [spring-gift] [    Test worker] g.r.ProductWishlistRepositoryTest        : Started ProductWishlistRepositoryTest in 0.448 seconds (process running for 19.333)
+Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
+Hibernate: insert into wishlist (email,id) values (?,default)
+Hibernate: insert into product_wishlist (product_id,wishlist_id,id) values (?,?,default)
+Hibernate: delete from product_wishlist pw1_0 where pw1_0.product_id=? and pw1_0.wishlist_id=?
+Hibernate: select pw1_0.id,pw1_0.product_id,pw1_0.wishlist_id from product_wishlist pw1_0 where pw1_0.product_id=? and pw1_0.wishlist_id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.4</a> at 2024. 7. 31. 오전 11:00:43</p>
+</div>
+</div>
+</body>
+</html>

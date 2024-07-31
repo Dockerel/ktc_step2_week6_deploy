@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gift.RestTemplateTimeoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-31T02:00:27" hostname="dogiheons-MacBook-Pro.local" time="10.204">
+  <properties/>
+  <testcase name="restTemplateTimeout()" classname="gift.RestTemplateTimeoutTest" time="10.204"/>
+  <system-out><![CDATA[11:00:21.308 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [gift.RestTemplateTimeoutTest]: RestTemplateTimeoutTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:00:21.379 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration gift.Application for test class gift.RestTemplateTimeoutTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-31T11:00:21.685+09:00  INFO 9359 --- [spring-gift] [    Test worker] gift.RestTemplateTimeoutTest             : Starting RestTemplateTimeoutTest using Java 21.0.3 with PID 9359 (started by dogiheon in /Users/dogiheon/Desktop/ktc/step2/spring-gift-point)
+2024-07-31T11:00:21.687+09:00  INFO 9359 --- [spring-gift] [    Test worker] gift.RestTemplateTimeoutTest             : The following 1 profile is active: "dev"
+2024-07-31T11:00:22.607+09:00  INFO 9359 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T11:00:22.684+09:00  INFO 9359 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 8 JPA repository interfaces.
+2024-07-31T11:00:23.214+09:00  INFO 9359 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T11:00:23.427+09:00  INFO 9359 --- [spring-gift] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-07-31T11:00:23.429+09:00  INFO 9359 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T11:00:23.582+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T11:00:23.637+09:00  INFO 9359 --- [spring-gift] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T11:00:23.670+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T11:00:23.984+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T11:00:24.823+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T11:00:24.825+09:00  INFO 9359 --- [spring-gift] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T11:00:25.476+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-31T11:00:26.188+09:00  WARN 9359 --- [spring-gift] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T11:00:27.398+09:00  INFO 9359 --- [spring-gift] [    Test worker] gift.RestTemplateTimeoutTest             : Started RestTemplateTimeoutTest in 5.913 seconds (process running for 6.8)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
