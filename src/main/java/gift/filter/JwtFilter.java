@@ -29,6 +29,12 @@ public class JwtFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
+        if (StringUtils.equals(((HttpServletRequest) servletRequest).getMethod(), "OPTIONS")) {
+            response.setStatus(HttpServletResponse.SC_OK);
+            filterChain.doFilter(servletRequest, servletResponse);
+            return;
+        }
+
         String authorizationHeader = request.getHeader("Authorization");
         if (authorizationHeader == null) {
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized");
