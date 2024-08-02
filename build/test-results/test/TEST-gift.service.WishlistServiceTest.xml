@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.service.WishlistServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-31T02:00:42" hostname="dogiheons-MacBook-Pro.local" time="0.296">
+<testsuite name="gift.service.WishlistServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:24" hostname="dogiheons-MacBook-Pro.local" time="0.672">
   <properties/>
-  <testcase name="다수의 유저가 위시리스트를 만든 경우 테스트" classname="gift.service.WishlistServiceTest" time="0.151"/>
-  <testcase name="삭제를 원하는 product가 내 wishlist에서 삭제되어야 함" classname="gift.service.WishlistServiceTest" time="0.145"/>
-  <system-out><![CDATA[2024-07-31T11:00:42.121+09:00  INFO 9359 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.WishlistServiceTest]: WishlistServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-07-31T11:00:42.122+09:00  INFO 9359 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.WishlistServiceTest
+  <testcase name="다수의 유저가 위시리스트를 만든 경우 테스트" classname="gift.service.WishlistServiceTest" time="0.366"/>
+  <testcase name="삭제를 원하는 product가 내 wishlist에서 삭제되어야 함" classname="gift.service.WishlistServiceTest" time="0.304"/>
+  <system-out><![CDATA[2024-08-02T15:21:24.326+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.WishlistServiceTest]: WishlistServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:21:24.330+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.WishlistServiceTest
 Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
-Hibernate: insert into users (email,password,id) values (?,?,default)
-Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: insert into users (email,password,point,id) values (?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
-Hibernate: select o1_0.id,o1_0.name,o1_0.quantity,u1_0.id,u1_0.email,u1_0.password from option o1_0 left join users u1_0 on u1_0.id=o1_0.user_id where o1_0.id=?
+Hibernate: select o1_0.id,o1_0.name,o1_0.quantity,u1_0.id,u1_0.email,u1_0.password,u1_0.point from option o1_0 left join users u1_0 on u1_0.id=o1_0.user_id where o1_0.id=?
 Hibernate: select c1_0.id,c1_0.color,c1_0.description,c1_0.image_url,c1_0.name from category c1_0 where c1_0.id=?
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)
-Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)
-Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)
 Hibernate: select w1_0.id,w1_0.email from wishlist w1_0 where w1_0.email=?
@@ -33,16 +33,16 @@ Hibernate: select pw1_0.id,pw1_0.product_id,pw1_0.wishlist_id from product_wishl
 Hibernate: select w1_0.id,w1_0.email from wishlist w1_0 where w1_0.email=?
 Hibernate: select pw1_0.id,pw1_0.product_id,pw1_0.wishlist_id from product_wishlist pw1_0 where pw1_0.wishlist_id=?
 Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
-Hibernate: insert into users (email,password,id) values (?,?,default)
-Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: insert into users (email,password,point,id) values (?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
-Hibernate: select o1_0.id,o1_0.name,o1_0.quantity,u1_0.id,u1_0.email,u1_0.password from option o1_0 left join users u1_0 on u1_0.id=o1_0.user_id where o1_0.id=?
+Hibernate: select o1_0.id,o1_0.name,o1_0.quantity,u1_0.id,u1_0.email,u1_0.password,u1_0.point from option o1_0 left join users u1_0 on u1_0.id=o1_0.user_id where o1_0.id=?
 Hibernate: select c1_0.id,c1_0.color,c1_0.description,c1_0.image_url,c1_0.name from category c1_0 where c1_0.id=?
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)
-Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)
-Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)
 Hibernate: select w1_0.id,w1_0.email from wishlist w1_0 where w1_0.email=?

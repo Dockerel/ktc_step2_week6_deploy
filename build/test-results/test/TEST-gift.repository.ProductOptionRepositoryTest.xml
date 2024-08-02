@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.repository.ProductOptionRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-31T02:00:39" hostname="dogiheons-MacBook-Pro.local" time="0.183">
+<testsuite name="gift.repository.ProductOptionRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:17" hostname="dogiheons-MacBook-Pro.local" time="0.45">
   <properties/>
-  <testcase name="findByProductIdAndOptionId_존재O()" classname="gift.repository.ProductOptionRepositoryTest" time="0.154"/>
-  <testcase name="findByProductIdAndOptionId_존재x()" classname="gift.repository.ProductOptionRepositoryTest" time="0.009"/>
-  <testcase name="deleteByProductIdAndOptionId()" classname="gift.repository.ProductOptionRepositoryTest" time="0.018"/>
-  <system-out><![CDATA[2024-07-31T11:00:39.274+09:00  INFO 9359 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.repository.ProductOptionRepositoryTest]: ProductOptionRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-07-31T11:00:39.281+09:00  INFO 9359 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.repository.ProductOptionRepositoryTest
+  <testcase name="findByProductIdAndOptionId_존재O()" classname="gift.repository.ProductOptionRepositoryTest" time="0.385"/>
+  <testcase name="findByProductIdAndOptionId_존재x()" classname="gift.repository.ProductOptionRepositoryTest" time="0.022"/>
+  <testcase name="deleteByProductIdAndOptionId()" classname="gift.repository.ProductOptionRepositoryTest" time="0.04"/>
+  <system-out><![CDATA[2024-08-02T15:21:17.206+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.repository.ProductOptionRepositoryTest]: ProductOptionRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:21:17.224+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.repository.ProductOptionRepositoryTest
 Hibernate: insert into product (category_id,image_url,name,price,user_id,id) values (?,?,?,?,?,default)
 Hibernate: insert into option (name,quantity,user_id,id) values (?,?,?,default)
 Hibernate: insert into product_option (option_id,option_name,product_id,id) values (?,?,?,default)

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>me</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+</head>
+<body>
+<h1>me</h1>
+<h2>point</h2>
+<h3 id="point"></h3>
+<h2>orders</h2>
+
+<table>
+    <tr>
+        <th scope="col">product id</th>
+        <th scope="col">option id</th>
+        <th scope="col">quantity</th>
+        <th scope="col">message</th>
+    </tr>
+    <tr th:id="${order.id}" th:each="order : ${orders}">
+        <td th:text="${order.product_id}"></td>
+        <td th:text="${order.option_id}"></td>
+        <td th:text="${order.quantity}"></td>
+        <td th:text="${order.message}"></td>
+    </tr>
+</table>
+
+<script>
+    const point = document.getElementById("point");
+    const meUrl = "/api/members/me";
+
+    fetch(meUrl, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${localStorage.getItem("accessToken")}`
+        }
+    })
+        .then(res => res.json())
+        .then(data => {
+            point.innerText = data.point;
+        })
+
+</script>
+</body>
+</html>

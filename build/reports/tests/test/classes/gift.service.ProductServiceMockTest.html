@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.008s</div>
+<div class="counter">0.021s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">상품에_옵션이_한개_이하_존재할_때_옵션_삭제_불가()</td>
-<td class="success">0.008s</td>
+<td class="success">0.021s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,8 +87,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2024-07-31T11:00:41.241+09:00  INFO 9359 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.ProductServiceMockTest]: ProductServiceMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-07-31T11:00:41.242+09:00  INFO 9359 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.ProductServiceMockTest
+<pre>2024-08-02T15:21:21.583+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.ProductServiceMockTest]: ProductServiceMockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:21:21.585+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.ProductServiceMockTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -99,20 +99,20 @@
 
  :: Spring Boot ::                (v3.3.1)
 
-2024-07-31T11:00:41.252+09:00  INFO 9359 --- [spring-gift] [    Test worker] gift.service.ProductServiceMockTest      : Starting ProductServiceMockTest using Java 21.0.3 with PID 9359 (started by dogiheon in /Users/dogiheon/Desktop/ktc/step2/spring-gift-point)
-2024-07-31T11:00:41.252+09:00  INFO 9359 --- [spring-gift] [    Test worker] gift.service.ProductServiceMockTest      : The following 1 profile is active: &quot;dev&quot;
-2024-07-31T11:00:41.333+09:00  INFO 9359 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-31T11:00:41.343+09:00  INFO 9359 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 8 JPA repository interfaces.
-2024-07-31T11:00:41.404+09:00  INFO 9359 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2024-07-31T11:00:41.405+09:00  INFO 9359 --- [spring-gift] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn28: url=jdbc:h2:mem:test user=SA
-2024-07-31T11:00:41.413+09:00  INFO 9359 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2024-07-31T11:00:41.433+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-07-31T11:00:41.434+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-07-31T11:00:41.439+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-07-31T11:00:41.505+09:00  INFO 9359 --- [spring-gift] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-07-31T11:00:41.505+09:00  INFO 9359 --- [spring-gift] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-07-31T11:00:41.577+09:00  WARN 9359 --- [spring-gift] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-07-31T11:00:41.820+09:00  INFO 9359 --- [spring-gift] [    Test worker] gift.service.ProductServiceMockTest      : Started ProductServiceMockTest in 0.577 seconds (process running for 21.223)
+2024-08-02T15:21:21.616+09:00  INFO 54127 --- [spring-gift] [    Test worker] gift.service.ProductServiceMockTest      : Starting ProductServiceMockTest using Java 21.0.3 with PID 54127 (started by dogiheon in /Users/dogiheon/Desktop/point-copy)
+2024-08-02T15:21:21.617+09:00  INFO 54127 --- [spring-gift] [    Test worker] gift.service.ProductServiceMockTest      : The following 1 profile is active: &quot;dev&quot;
+2024-08-02T15:21:21.978+09:00  INFO 54127 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02T15:21:22.006+09:00  INFO 54127 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 8 JPA repository interfaces.
+2024-08-02T15:21:22.210+09:00  INFO 54127 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-02T15:21:22.212+09:00  INFO 54127 --- [spring-gift] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn28: url=jdbc:h2:mem:test user=SA
+2024-08-02T15:21:22.213+09:00  INFO 54127 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-02T15:21:22.260+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02T15:21:22.263+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-02T15:21:22.271+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02T15:21:22.498+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02T15:21:22.499+09:00  INFO 54127 --- [spring-gift] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02T15:21:22.700+09:00  WARN 54127 --- [spring-gift] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02T15:21:23.601+09:00  INFO 54127 --- [spring-gift] [    Test worker] gift.service.ProductServiceMockTest      : Started ProductServiceMockTest in 2.01 seconds (process running for 35.248)
 </pre>
 </span>
 </div>
@@ -124,7 +124,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.4</a> at 2024. 7. 31. 오전 11:00:43</p>
+<a href="http://www.gradle.org">Gradle 8.4</a> at 2024. 8. 2. 오후 3:21:26</p>
 </div>
 </div>
 </body>
