@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.entity.WishlistDTOTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:16" hostname="dogiheons-MacBook-Pro.local" time="0.066">
+<testsuite name="gift.entity.WishlistDTOTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:37" hostname="dogiheons-MacBook-Pro.local" time="0.057">
   <properties/>
-  <testcase name="위시리스트에_추가하고_싶은데_실제로_존재하지_않는_상품인_경우()" classname="gift.entity.WishlistDTOTest" time="0.057"/>
-  <testcase name="위시리스트에_추가하고_싶은데_실제로_존재하는_상품인_경우()" classname="gift.entity.WishlistDTOTest" time="0.007"/>
-  <system-out><![CDATA[2024-08-02T15:21:13.663+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.entity.WishlistDTOTest]: WishlistDTOTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:13.665+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.entity.WishlistDTOTest
+  <testcase name="위시리스트에_추가하고_싶은데_실제로_존재하지_않는_상품인_경우()" classname="gift.entity.WishlistDTOTest" time="0.051"/>
+  <testcase name="위시리스트에_추가하고_싶은데_실제로_존재하는_상품인_경우()" classname="gift.entity.WishlistDTOTest" time="0.005"/>
+  <system-out><![CDATA[2024-08-02T15:41:35.557+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.entity.WishlistDTOTest]: WishlistDTOTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:35.561+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.entity.WishlistDTOTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -15,20 +15,20 @@
 
  :: Spring Boot ::                (v3.3.1)
 
-2024-08-02T15:21:13.696+09:00  INFO 54127 --- [spring-gift] [    Test worker] gift.entity.WishlistDTOTest              : Starting WishlistDTOTest using Java 21.0.3 with PID 54127 (started by dogiheon in /Users/dogiheon/Desktop/point-copy)
-2024-08-02T15:21:13.696+09:00  INFO 54127 --- [spring-gift] [    Test worker] gift.entity.WishlistDTOTest              : The following 1 profile is active: "dev"
-2024-08-02T15:21:14.285+09:00  INFO 54127 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-02T15:21:14.315+09:00  INFO 54127 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 8 JPA repository interfaces.
-2024-08-02T15:21:14.705+09:00  INFO 54127 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-08-02T15:21:14.708+09:00  INFO 54127 --- [spring-gift] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:test user=SA
-2024-08-02T15:21:14.709+09:00  INFO 54127 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-08-02T15:21:14.787+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-02T15:21:14.792+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-02T15:21:14.802+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-02T15:21:15.119+09:00  INFO 54127 --- [spring-gift] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-08-02T15:21:15.120+09:00  INFO 54127 --- [spring-gift] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02T15:21:15.493+09:00  WARN 54127 --- [spring-gift] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-02T15:21:16.662+09:00  INFO 54127 --- [spring-gift] [    Test worker] gift.entity.WishlistDTOTest              : Started WishlistDTOTest in 2.993 seconds (process running for 28.31)
+2024-08-02T15:41:35.611+09:00  INFO 58961 --- [spring-gift] [    Test worker] gift.entity.WishlistDTOTest              : Starting WishlistDTOTest using Java 21.0.3 with PID 58961 (started by dogiheon in /Users/dogiheon/Desktop/point-copy)
+2024-08-02T15:41:35.612+09:00  INFO 58961 --- [spring-gift] [    Test worker] gift.entity.WishlistDTOTest              : The following 1 profile is active: "dev"
+2024-08-02T15:41:35.951+09:00  INFO 58961 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02T15:41:35.979+09:00  INFO 58961 --- [spring-gift] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 8 JPA repository interfaces.
+2024-08-02T15:41:36.243+09:00  INFO 58961 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-02T15:41:36.245+09:00  INFO 58961 --- [spring-gift] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:test user=SA
+2024-08-02T15:41:36.245+09:00  INFO 58961 --- [spring-gift] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-02T15:41:36.315+09:00  INFO 58961 --- [spring-gift] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02T15:41:36.318+09:00  INFO 58961 --- [spring-gift] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-02T15:41:36.328+09:00  INFO 58961 --- [spring-gift] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02T15:41:36.570+09:00  INFO 58961 --- [spring-gift] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02T15:41:36.571+09:00  INFO 58961 --- [spring-gift] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02T15:41:36.834+09:00  WARN 58961 --- [spring-gift] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02T15:41:37.546+09:00  INFO 58961 --- [spring-gift] [    Test worker] gift.entity.WishlistDTOTest              : Started WishlistDTOTest in 1.98 seconds (process running for 23.431)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.util.ProductNameValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:25" hostname="dogiheons-MacBook-Pro.local" time="0.038">
+<testsuite name="gift.util.ProductNameValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:44" hostname="dogiheons-MacBook-Pro.local" time="0.025">
   <properties/>
-  <testcase name="save_nameWithStrangeChar()" classname="gift.util.ProductNameValidatorTest" time="0.004"/>
-  <testcase name="save_nameWithKakao()" classname="gift.util.ProductNameValidatorTest" time="0.004"/>
-  <testcase name="save_nameSuccess()" classname="gift.util.ProductNameValidatorTest" time="0.013"/>
-  <testcase name="save_nameLongerThan15Char_eng()" classname="gift.util.ProductNameValidatorTest" time="0.004"/>
-  <testcase name="save_nameLongerThan15Char_kor()" classname="gift.util.ProductNameValidatorTest" time="0.005"/>
-  <system-out><![CDATA[2024-08-02T15:21:25.590+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.util.ProductNameValidatorTest]: ProductNameValidatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:25.593+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.util.ProductNameValidatorTest
+  <testcase name="save_nameWithStrangeChar()" classname="gift.util.ProductNameValidatorTest" time="0.006"/>
+  <testcase name="save_nameWithKakao()" classname="gift.util.ProductNameValidatorTest" time="0.003"/>
+  <testcase name="save_nameSuccess()" classname="gift.util.ProductNameValidatorTest" time="0.003"/>
+  <testcase name="save_nameLongerThan15Char_eng()" classname="gift.util.ProductNameValidatorTest" time="0.003"/>
+  <testcase name="save_nameLongerThan15Char_kor()" classname="gift.util.ProductNameValidatorTest" time="0.006"/>
+  <system-out><![CDATA[2024-08-02T15:41:44.359+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.util.ProductNameValidatorTest]: ProductNameValidatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:44.360+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.util.ProductNameValidatorTest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

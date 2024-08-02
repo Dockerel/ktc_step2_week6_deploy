@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.filter.JwtFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:16" hostname="dogiheons-MacBook-Pro.local" time="0.433">
+<testsuite name="gift.filter.JwtFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:37" hostname="dogiheons-MacBook-Pro.local" time="0.356">
   <properties/>
-  <testcase name="doFilterWithInvalidTokenTest()" classname="gift.filter.JwtFilterTest" time="0.407"/>
-  <testcase name="doFilterWithValidTokenTest()" classname="gift.filter.JwtFilterTest" time="0.014"/>
-  <testcase name="doFilterWithoutTokenTest()" classname="gift.filter.JwtFilterTest" time="0.008"/>
-  <system-out><![CDATA[2024-08-02T15:21:16.742+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.filter.JwtFilterTest]: JwtFilterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:16.761+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.filter.JwtFilterTest
+  <testcase name="doFilterWithInvalidTokenTest()" classname="gift.filter.JwtFilterTest" time="0.326"/>
+  <testcase name="doFilterWithValidTokenTest()" classname="gift.filter.JwtFilterTest" time="0.016"/>
+  <testcase name="doFilterWithoutTokenTest()" classname="gift.filter.JwtFilterTest" time="0.009"/>
+  <system-out><![CDATA[2024-08-02T15:41:37.611+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.filter.JwtFilterTest]: JwtFilterTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:37.621+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.filter.JwtFilterTest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

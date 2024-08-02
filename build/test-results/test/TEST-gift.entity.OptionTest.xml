@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.entity.OptionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:13" hostname="dogiheons-MacBook-Pro.local" time="0.002">
+<testsuite name="gift.entity.OptionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:35" hostname="dogiheons-MacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="option_quantity_subtract_test()" classname="gift.entity.OptionTest" time="0.002"/>
+  <testcase name="option_quantity_subtract_test()" classname="gift.entity.OptionTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

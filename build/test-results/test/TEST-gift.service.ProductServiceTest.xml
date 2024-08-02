@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.service.ProductServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:23" hostname="dogiheons-MacBook-Pro.local" time="0.687">
+<testsuite name="gift.service.ProductServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:42" hostname="dogiheons-MacBook-Pro.local" time="0.537">
   <properties/>
-  <testcase name="product가 삭제되었을 때 product_wishlist에서 해당 행이 삭제되어야 함" classname="gift.service.ProductServiceTest" time="0.352"/>
-  <testcase name="카테고리별 상품들만 보여줘야 함" classname="gift.service.ProductServiceTest" time="0.334"/>
-  <system-out><![CDATA[2024-08-02T15:21:23.629+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.ProductServiceTest]: ProductServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:23.631+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.ProductServiceTest
+  <testcase name="product가 삭제되었을 때 product_wishlist에서 해당 행이 삭제되어야 함" classname="gift.service.ProductServiceTest" time="0.245"/>
+  <testcase name="카테고리별 상품들만 보여줘야 함" classname="gift.service.ProductServiceTest" time="0.291"/>
+  <system-out><![CDATA[2024-08-02T15:41:42.813+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.ProductServiceTest]: ProductServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:42.814+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.ProductServiceTest
 Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
 Hibernate: insert into users (email,password,point,id) values (?,?,?,default)
 Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?

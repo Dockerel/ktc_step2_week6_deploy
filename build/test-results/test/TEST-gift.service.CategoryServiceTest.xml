@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.service.CategoryServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:18" hostname="dogiheons-MacBook-Pro.local" time="0.107">
+<testsuite name="gift.service.CategoryServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:39" hostname="dogiheons-MacBook-Pro.local" time="0.07">
   <properties/>
-  <testcase name="상품에 매핑된 카테고리가 삭제될 시 해당 상품의 category가 [DefaultCategory]로 리턴됨" classname="gift.service.CategoryServiceTest" time="0.075"/>
-  <testcase name="readCategory()" classname="gift.service.CategoryServiceTest" time="0.013"/>
-  <testcase name="updateCategory()" classname="gift.service.CategoryServiceTest" time="0.016"/>
-  <system-out><![CDATA[2024-08-02T15:21:18.764+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.CategoryServiceTest]: CategoryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:18.782+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.CategoryServiceTest
+  <testcase name="상품에 매핑된 카테고리가 삭제될 시 해당 상품의 category가 [DefaultCategory]로 리턴됨" classname="gift.service.CategoryServiceTest" time="0.042"/>
+  <testcase name="readCategory()" classname="gift.service.CategoryServiceTest" time="0.011"/>
+  <testcase name="updateCategory()" classname="gift.service.CategoryServiceTest" time="0.013"/>
+  <system-out><![CDATA[2024-08-02T15:41:39.377+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.service.CategoryServiceTest]: CategoryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:39.391+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.service.CategoryServiceTest
 Hibernate: insert into category (color,description,image_url,name,id) values (?,?,?,?,default)
 Hibernate: select c1_0.id,c1_0.color,c1_0.description,c1_0.image_url,c1_0.name from category c1_0 where c1_0.id=?
 Hibernate: insert into category (color,description,image_url,name,id) values (?,?,?,?,default)

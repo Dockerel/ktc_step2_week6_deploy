@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.entity.ProductDTOTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:13" hostname="dogiheons-MacBook-Pro.local" time="0.059">
+<testsuite name="gift.entity.ProductDTOTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:35" hostname="dogiheons-MacBook-Pro.local" time="0.244">
   <properties/>
-  <testcase name="이름에_카카오_포함_불가능_성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.016"/>
-  <testcase name="이름에_카카오_포함_불가능_실패_테스트()" classname="gift.entity.ProductDTOTest" time="0.005"/>
-  <testcase name="상품_이름은_공백을_포함하여_최대_15자까지만_가능_성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.006"/>
-  <testcase name="상품_이름은_공백을_포함하여_최대_15자까지만_가능_실패_테스트()" classname="gift.entity.ProductDTOTest" time="0.004"/>
-  <testcase name="성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.005"/>
-  <testcase name="특정_특수문자만_사용가능_성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.009"/>
-  <testcase name="특정_특수문자만_사용가능_실패_테스트()" classname="gift.entity.ProductDTOTest" time="0.008"/>
-  <system-out><![CDATA[2024-08-02T15:21:13.562+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.entity.ProductDTOTest]: ProductDTOTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:13.564+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.entity.ProductDTOTest
+  <testcase name="이름에_카카오_포함_불가능_성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.032"/>
+  <testcase name="이름에_카카오_포함_불가능_실패_테스트()" classname="gift.entity.ProductDTOTest" time="0.029"/>
+  <testcase name="상품_이름은_공백을_포함하여_최대_15자까지만_가능_성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.019"/>
+  <testcase name="상품_이름은_공백을_포함하여_최대_15자까지만_가능_실패_테스트()" classname="gift.entity.ProductDTOTest" time="0.094"/>
+  <testcase name="성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.014"/>
+  <testcase name="특정_특수문자만_사용가능_성공_테스트()" classname="gift.entity.ProductDTOTest" time="0.007"/>
+  <testcase name="특정_특수문자만_사용가능_실패_테스트()" classname="gift.entity.ProductDTOTest" time="0.02"/>
+  <system-out><![CDATA[2024-08-02T15:41:35.242+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.entity.ProductDTOTest]: ProductDTOTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:35.245+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.entity.ProductDTOTest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

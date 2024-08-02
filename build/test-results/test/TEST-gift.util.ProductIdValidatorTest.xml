@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gift.util.ProductIdValidatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:21:25" hostname="dogiheons-MacBook-Pro.local" time="0.563">
+<testsuite name="gift.util.ProductIdValidatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-02T06:41:43" hostname="dogiheons-MacBook-Pro.local" time="0.386">
   <properties/>
-  <testcase name="save_existingProductId()" classname="gift.util.ProductIdValidatorTest" time="0.317"/>
-  <testcase name="save_nonexistentProductId()" classname="gift.util.ProductIdValidatorTest" time="0.244"/>
-  <system-out><![CDATA[2024-08-02T15:21:25.009+09:00  INFO 54127 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.util.ProductIdValidatorTest]: ProductIdValidatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-02T15:21:25.021+09:00  INFO 54127 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.util.ProductIdValidatorTest
+  <testcase name="save_existingProductId()" classname="gift.util.ProductIdValidatorTest" time="0.224"/>
+  <testcase name="save_nonexistentProductId()" classname="gift.util.ProductIdValidatorTest" time="0.161"/>
+  <system-out><![CDATA[2024-08-02T15:41:43.958+09:00  INFO 58961 --- [spring-gift] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [gift.util.ProductIdValidatorTest]: ProductIdValidatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-02T15:41:43.969+09:00  INFO 58961 --- [spring-gift] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration gift.Application for test class gift.util.ProductIdValidatorTest
 Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
 Hibernate: insert into users (email,password,point,id) values (?,?,?,default)
 Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.point from users u1_0 where u1_0.email=?
